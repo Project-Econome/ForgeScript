@@ -5,7 +5,7 @@ export default new NativeFunction({
     version: "1.5.0",
     description: "Creates a new guild, returns guild id",
     aliases: [
-        "$createServer"
+        "$createServer","$newGuild"
     ],
     unwrap: true,
     brackets: true,
