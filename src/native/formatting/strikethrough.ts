@@ -8,6 +8,7 @@ export default new NativeFunction({
     version: "1.3.0",
     brackets: true,
     description: "Makes given text strikethrough",
+    aliases: ["$strike"],
     unwrap: true,
     output: ArgType.String,
     args: [
