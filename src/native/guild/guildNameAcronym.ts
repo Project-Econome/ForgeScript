@@ -6,7 +6,7 @@ export default new NativeFunction({
     description: "Returns the server name acronym",
     brackets: false,
     aliases: [
-        "$serverNameAcronym"
+        "$serverNameAcronym","guildAcronym","serverAcronym"
     ],
     output: ArgType.String,
     args: [
