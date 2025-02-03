@@ -5,6 +5,7 @@ export default new NativeFunction({
     name: "$subtext",
     version: "2.2.0",
     description: "Makes given text a subtext",
+    aliases: ["$subscript"],
     unwrap: true,
     brackets: true,
     output: ArgType.String,
